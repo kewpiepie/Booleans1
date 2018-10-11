@@ -11,7 +11,7 @@ public class secondweek {
 
 
 	boolean expression = 1 == 1; 
-	
+
 	boolean greaterthan = 4 > 2; 
 	
 	boolean twothingstrue = 1 == 2 && 2 == 2; 
