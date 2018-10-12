@@ -8,6 +8,7 @@ public class secondweek {
 	
 	//booleans are typically used to see if further action is needed. 
 	// in order to evaluate boolean data in our code we can use boolean operators 
+		
 
 
 	boolean expression = 1 == 1; 
@@ -20,6 +21,7 @@ public class secondweek {
 	
 
 	System.out.println(onethingtrue);
+	
 	
 
 	
