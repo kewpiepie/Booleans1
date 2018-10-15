@@ -1,0 +1,65 @@
+
+	Loops are basically control statements and provide a way to maneuver the flow of the program. 
+	Java has three repetition statements
+	
+	A for loop is a control structure that allows us to repeat certain operations by incrementing
+	 and evaluating a loop counter.
+	 there is a chance that the loop may not execute at all if the condition is false.
+	 The for loop is used to repeat a section of code known number of times. 
+	 Sometimes it is the computer that knows how many times, not you, but it is still known. 
+	 
+
+	Unknown number of times:
+
+ 	"Ask the User to Guess a pre-determined number between 1 and 100".
+	 You have no way of knowing how many guesses it will take.
+
+	"Randomly look in an array for a given value." You have no way of 
+	knowing how many tries it will take to find the actual value.
+
+  	Known number of times:
+
+	Compute the average grade of the class. 
+	While you (the programmer) might not know how many grades exist in the class, 
+	the computer will know. Usually this is accomplished by using the "length" function on an array.
+
+	Print the odd numbers from 1 to 1001.
+
+	Search a list (array) of numbers for the biggest grade. Again, the computer 
+	"knows" how many grades there are, so a for loop is appropriate.
+	 		
+	 		
+	while loop: A "While" Loop is used to repeat a specific block of code an unknown number of times,
+	 until a condition is met.For example, if we want to ask a user for a number between 1 and 10, 
+	 we don't know how many times the user may enter a larger number, so we keep asking "while the 
+	 number is not between 1 and 10". If we (or the computer) knows exactly how many
+	 times to execute a section of code (such as shuffling a deck of cards) we use a for loop.
+	
+	do while: do while loop is similar to while loop with only difference that it checks for 
+	condition after executing the statements,
+	and therefore is an example of Exit Control Loop. It is a loop with the test at the bottom, 
+	rather than the more usual test at the top.
+	It is useful when you want to execute the body of the loop at least once without evaluating 
+	its condition. For example, lets say you want to write a loop where you are prompting the user
+	for input and depending on input execute some code. You would want this to execute at least once 
+	and then ask the user whether he wants continue.
+	In such cases, do..while loop results in lesser and cleaner code compared to a while loop.
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	https://www.cs.utah.edu/~germain/PPS/Topics/for_loops.html
+	
+	https://www.cs.utah.edu/~germain/PPS/Topics/while_loops.html
+	
+	https://www.geeksforgeeks.org/loops-in-java/
+	
+	https://www.developer.com/java/data/using-different-types-of-java-loops-looping-in-java.html
